@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MotionDetectionApp/MotionDetectionApp.vcxproj" Id="c84b0d6a-80cb-4d53-91d4-e6520720b7ed" />
+</Solution>
