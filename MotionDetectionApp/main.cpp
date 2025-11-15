@@ -3,7 +3,7 @@
 #include "App.hpp"
 
 //raspberry PI build
-//g++ -std=c++20 -O3 -march=native -mtune=native -flto -pipe ./MotionDetectionApp/main.cpp -o ./release/motionApp `pkg-config --cflags --libs opencv4`
+//g++ -std=c++20 -O3 -march=native -mtune=native -pthread -flto -pipe ./MotionDetectionApp/*.cpp -o motionApp `pkg-config --cflags --libs opencv4`
 
 int main()
 {
