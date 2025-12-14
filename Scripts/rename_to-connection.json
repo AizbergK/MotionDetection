@@ -1,0 +1,6 @@
+{
+  "host": "ip",
+  "user": "user",
+  "password": "pwd",
+  "path": "path to video folder"
+}

@@ -51,4 +51,19 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.gitignore">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Scripts\remote_gui.py">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Scripts\rename_to-connection.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Scripts\setup.sh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\README.md" />
+  </ItemGroup>
 </Project>

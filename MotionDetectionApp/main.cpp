@@ -3,15 +3,15 @@
 #include "App.hpp"
 
 //raspberry PI build
-//g++ -std=c++20 -O3 -march=native -mtune=native -pthread -flto -pipe ./MotionDetectionApp/*.cpp -o motionApp `pkg-config --cflags --libs opencv4`
+//g++ -std=c++17 -O3 -march=native -mtune=native -pthread -flto -pipe ./MotionDetectionApp/*.cpp -o motionApp `pkg-config --cflags --libs opencv4`
 
 int main()
 {
 	// Camera settings
-	constexpr int WIDTH{ 1280 };
-    constexpr int HEIGHT{ 720 };
-    constexpr int FPS{ 30 };
-    constexpr int BUFFER_IN_SECONDS{ 3 };
+	constexpr int WIDTH             { 640 };
+    constexpr int HEIGHT            { 480 };
+    constexpr int FPS               { 30 };
+    constexpr int BUFFER_IN_SECONDS { 3 };
 
 	// Initialize app
 	App app{ WIDTH, HEIGHT, FPS, BUFFER_IN_SECONDS };
